@@ -46,7 +46,14 @@ This project strictly follows the **Spring MVC Layered Architecture** for clean 
 ```bash
 ./mvnw spring-boot:run
 ```
-or if using IntelliJ IDEA just click on the ▶ button
+OR
+If using IntelliJ IDEA, Wait for:
+ - Dependencies to download (bottom progress bar)
+ - Maven sync to complete
+
+If it doesn’t auto-import:
+ - Right click pom.xml → Add as Maven Project then click on the ▶ button
+ 
 (Note: Because of the BYOK architecture, you do not need to set up any local environment variables for API keys before running the server!)
 
 3. **Access the Dashboard:**
